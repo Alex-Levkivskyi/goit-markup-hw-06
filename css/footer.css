@@ -204,7 +204,7 @@
 
   .footer-container {
     flex-wrap: nowrap; /* staje v desktopnyj rjadok */
-    padding-left: 15px;
+
     gap: 0;
   }
 
