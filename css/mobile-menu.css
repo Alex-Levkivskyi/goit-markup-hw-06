@@ -7,10 +7,9 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(46, 47, 66, 0.4); /* Затемнення фону, як у модалки */
+  background-color: #ffffff;
   z-index: 999;
 
-  /* Ховаю меню (opacity, visibility, pointer-events) */
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -19,23 +18,15 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Коли додається клас is-open (меню відкрите) */
 .menu-overlay.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-/* Сам білий контейнер меню */
 .menu-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  max-width: 428px;
   height: 100%;
-  background-color: #ffffff;
-  padding: 24px 24px 40px 40px;
+  padding: 24px 24px 40px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

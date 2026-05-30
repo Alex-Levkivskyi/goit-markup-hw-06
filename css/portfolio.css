@@ -83,7 +83,7 @@
     flex-direction: row;
     flex-wrap: wrap; /* dvi kolonky dlia plansheta */
     column-gap: 24px;
-    row-gap: 48px;
+    row-gap: 72px;
   }
 
   .portfolio-item {
