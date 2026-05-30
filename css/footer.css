@@ -55,6 +55,7 @@
 
 .footer-soc-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
   list-style: none;
   padding: 0;
@@ -174,7 +175,6 @@
 
   .footer-info {
     text-align: left;
-    margin-right: 24px;
   }
 
   .footer-socials {
